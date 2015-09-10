@@ -1,0 +1,5 @@
+#!/usr/bin/python
+import cqcm.wsgi
+
+# reuse the application callable from openshift.wsgi
+application = cqcm.wsgi.application
